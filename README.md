@@ -1,6 +1,7 @@
 # LTH-pytorch
 
-This repository contains a [Lottery Ticket Hypothesis](https://arxiv.org/pdf/1803.03635.pdf) implementation on single-cell RNA-seq data
+This repository contains a [Lottery Ticket Hypothesis](https://arxiv.org/pdf/1803.03635.pdf) implementation on single-cell RNA-seq data.
+
 The pruning criteria used for pruning is L1-magnitude based pruning.
 
 ## Training data
@@ -17,3 +18,9 @@ Make sure **cudf** is installed
 ## Implementation details
 
 Main code is in a jupyter notebook called `prune.ipynb`
+
+Ensure `DATA_PATH` is pointed to the downloaded dataset.
+
+## First Attempt results - 
+
+![example](assets/f1_plot.png)
