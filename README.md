@@ -33,6 +33,19 @@ To benchmark against a known standard, the model architecture chosen is from the
 
 ![example](assets/f1_plot.png)
 
+| Percent of Weights Remaining | F1-score (Macro)   |
+| :---:   | :---: |
+| 100 | 83.62   |
+| 90 | 83.81   |
+| 80 | 83.75   |
+| 70 | 83.43   |
+| 60 | 83.39   |
+| 50 | 83.03   |
+| 40 | 82.37   |
+| 30 | 81.39   |
+| 20 | 79.31   |
+| 10 | 75.2   |
+
 ## References
 
 * Dataset and Model from [ScTab](https://github.com/theislab/scTab/tree/devel).
